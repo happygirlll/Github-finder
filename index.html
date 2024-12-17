@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github finder</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header class="header">
+        <div class="container">
+            <h1>GitHub Finder</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- 검색 섹션 -->
+            <section class="search-section">
+                <h2>Search GitHub Users</h2>
+                <p>Enter a username to fetch a user profile and repos</p>
+                <input type="text" id="usernameInput" placeholder="Enter a username">
+            </section>
+
+            <!-- 프로필 섹션 (내용은 JS에서 동적으로 추가) -->
+            <section class="profile-section">
+                <div class="profile-main" id="profile-main">
+                </div>
+                <div class="profile-info" id="profile-info">
+                </div>
+            </section>
+
+            <!-- repos 섹션 -->
+            <h3>Latest Repos</h3>
+            <section class="repos-section" id="repos-section">
+                <!-- 레포지토리 목록은 JS에서 동적으로 추가 -->
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>GitHub Finder &copy; </p>
+        </div>
+    </footer>
+</body>
+</html>
